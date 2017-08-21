@@ -546,6 +546,7 @@ set_default POWERLEVEL9K_ALWAYS_SHOW_CONTEXT false
 set_default POWERLEVEL9K_ALWAYS_SHOW_USER false
 set_default POWERLEVEL9K_CONTEXT_TEMPLATE "%n@%m"
 prompt_context() {
+  return ""
   local current_state="DEFAULT"
   typeset -AH context_states
   context_states=(
