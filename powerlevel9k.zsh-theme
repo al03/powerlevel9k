@@ -1939,3 +1939,5 @@ prompt_powerlevel9k_teardown() {
 }
 
 prompt_powerlevel9k_setup "$@"
+
+POWERLEVEL9K_DIR_PATH_SEPARATOR="%F{white}/%F{white}"
